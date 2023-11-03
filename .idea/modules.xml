@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fav_Spіn__Mr_Chicken.iml" filepath="$PROJECT_DIR$/.idea/modules/Fav_Spіn__Mr_Chicken.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fav_Spіn__Mr_Chicken.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Favorite_Farm_Championship.iml" filepath="$PROJECT_DIR$/.idea/modules/Favorite_Farm_Championship.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Favorite_Farm_Championship.app.unitTest.iml" />
     </modules>
   </component>
 </project>

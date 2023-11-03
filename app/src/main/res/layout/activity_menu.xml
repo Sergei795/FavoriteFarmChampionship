@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_m"
+    tools:context="farm.favbet.game.fovorit.MenuActivity">
+
+    <ImageView
+        android:id="@+id/cubok"
+        android:layout_width="240dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="-50dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cubok" />
+
+    <ImageView
+        android:id="@+id/btn_play"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/btn_play"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/aboutilka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/bt_1" />
+
+    <ImageView
+        android:id="@+id/btn_share"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/btn_share"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/btn_quit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/howtotopla"
+        app:srcCompat="@drawable/bt_1" />
+
+    <ImageView
+        android:id="@+id/aboutilka"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/btn_share"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/howtotopla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_play"
+        app:srcCompat="@drawable/bt_1" />
+
+    <ImageView
+        android:id="@+id/howtotopla"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/btn_share"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/btn_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutilka"
+        app:srcCompat="@drawable/bt_1" />
+
+    <ImageView
+        android:id="@+id/btn_quit"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/btn_quit"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_share"
+        app:srcCompat="@drawable/bt_1" />
+
+    <TextView
+        android:id="@+id/tsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/play"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_play"
+        app:layout_constraintEnd_toEndOf="@+id/btn_play"
+        app:layout_constraintStart_toStartOf="@+id/btn_play"
+        app:layout_constraintTop_toTopOf="@+id/btn_play" />
+
+    <TextView
+        android:id="@+id/tsp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/about_us"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aboutilka"
+        app:layout_constraintEnd_toEndOf="@+id/aboutilka"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/aboutilka"
+        app:layout_constraintTop_toTopOf="@+id/aboutilka" />
+
+    <TextView
+        android:id="@+id/tv_htpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="How to play?!"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/howtotopla"
+        app:layout_constraintEnd_toEndOf="@+id/howtotopla"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/howtotopla"
+        app:layout_constraintTop_toTopOf="@+id/howtotopla" />
+
+    <TextView
+        android:id="@+id/share_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/share_the_app"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_share"
+        app:layout_constraintEnd_toEndOf="@+id/btn_share"
+        app:layout_constraintStart_toStartOf="@+id/btn_share"
+        app:layout_constraintTop_toTopOf="@+id/btn_share"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <TextView
+        android:id="@+id/tqu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/quit"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_quit"
+        app:layout_constraintEnd_toEndOf="@+id/btn_quit"
+        app:layout_constraintStart_toStartOf="@+id/btn_quit"
+        app:layout_constraintTop_toTopOf="@+id/btn_quit" />
+
+    <ImageView
+        android:id="@+id/ratilka"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rate_app" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
